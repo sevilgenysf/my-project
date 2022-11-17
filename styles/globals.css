@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+	.site-container {
+		@apply max-w-2xl mx-auto
+	}
+}
+
 html,
 body {
   padding: 0;
